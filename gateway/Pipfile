@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+
+[packages]
+djangorestframework = "==3.10.1"
+entrypoints = "==0.3"
+mccabe = "==0.6.1"
+psycopg2-binary = "==2.8.3"
+pycodestyle = "==2.5.0"
+pyflakes = "==2.1.1"
+pytz = "==2019.1"
+sqlparse = "==0.3.0"
+Django = "==2.2.3"
+Markdown = "==3.1.1"
+Pygments = "==2.4.2"
+
+[requires]
+python_version = "3.7"
